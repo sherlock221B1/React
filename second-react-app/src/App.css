@@ -1,0 +1,56 @@
+.App {
+}
+.topBar {
+  background-color: #283618;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 10px;
+  font-size: 20px;
+}
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  display: flex;
+}
+.sideBar {
+  padding-top: 10px;
+  width: 17vw;
+  height: 100vh;
+  background-color: #606c38;
+
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+}
+.sideBarItem {
+  color: white;
+  padding: 20px;
+}
+.sideBarItem:hover {
+  background-color: #fefae0;
+  color: #283618;
+}
+
+.contentContainer {
+  width: 100%;
+  height: 20px;
+  height: auto;
+  padding: 10px;
+}
+.newMenuButtonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.newMenuButton {
+  padding: 10px;
+
+  background-color: rgb(125, 125, 240);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
